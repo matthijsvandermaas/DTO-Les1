@@ -30,6 +30,7 @@ public class TeacherController {
 //    public ResponseEntity<List<Teacher>> getTeachers() {
 //        return ResponseEntity.ok(repos.findAll());
 //    }
+    //test
 
     @PostMapping
     public ResponseEntity<Object> createTeacher(@Valid @RequestBody TeacherDto teacherDto, BindingResult br) {
